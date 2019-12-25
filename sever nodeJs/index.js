@@ -30,8 +30,8 @@ app.post('/get',function(req,res){
     
     let pincode=req.body;
     console.log(pincode);
-    phonebook.find(pincode 
-).then(function(data){
+    phonebook.find(pincode).
+    then(function(data){
    
             res.json(data);
         
